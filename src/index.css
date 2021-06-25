@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #eee;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.stat-tile {
+  border: 1px solid rgb(41, 36, 36);
+  margin: 20px 0;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+}
+
+.state-name {
+  margin-left: 20px;
+}
+
+.home-link {
+  margin-left: 20px;
+}
+
+.search-bar-area {
+  text-align: center;
+}
+
+.search-bar {
+  border-radius: 10px;
+  padding: 5px;
+  width: 50%;
+}
+
+.search-bar:focus-visible {
+  outline: none;
+}
+
+.covid-header {
+  text-align: center;
+}
